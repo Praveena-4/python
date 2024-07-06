@@ -1,0 +1,7 @@
+#SIMPLE INTREST
+
+p=float(input())
+r=float(input())
+t=float(input())
+simple=(p*r*t)/100
+print('%.1f'%simple)
