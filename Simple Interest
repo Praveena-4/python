@@ -1,7 +1,8 @@
-#SIMPLE INTREST
-
-p=float(input())
-r=float(input())
-t=float(input())
-simple=(p*r*t)/100
-print('%.1f'%simple)
+# Input principal amount, interest rate, and time period
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the interest rate: "))
+time = float(input("Enter the time period in years: "))
+# Calculate simple interest
+interest = (principal * rate * time) / 100
+# Print the calculated simple interest
+print("Simple Interest:", interest)
