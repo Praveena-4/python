@@ -1,24 +1,64 @@
-#OPERATORS
-a = 7
-b = 2
+#ARITHMETIC OPERATORS
 
-# addition
-print ('Sum: ', a + b)  
+a = 32    # Initialize the value of a  
+b = 6      # Initialize the value of b  
+print('Addition of two numbers:',a+b)  
+print('Subtraction of two numbers:',a-b)  
+print('Multiplication of two numbers:',a*b)  
+print('Division of two numbers:',a/b)  
+print('Reminder of two numbers:',a%b)  
+print('Exponent of two numbers:',a**b)  
+print('Floor division of two numbers:',a//b)  
 
-# subtraction
-print ('Subtraction: ', a - b)   
+#COMPARISON OPERATOR
 
-# multiplication
-print ('Multiplication: ', a * b)  
+a = 32      # Initialize the value of a  
+b = 6       # Initialize the value of b  
+print('Two numbers are equal or not:',a==b)  
+print('Two numbers are not equal or not:',a!=b)  
+print('a is less than or equal to b:',a<=b)  
+print('a is greater than or equal to b:',a>=b)  
+print('a is greater b:',a>b)  
+print('a is less than b:',a<b)  
 
-# division
-print ('Division: ', a / b) 
+#ASSIGNMENT OPERATOR
 
-# floor division
-print ('Floor Division: ', a // b)
+a = 32         # Initialize the value of a  
+b = 6          # Initialize the value of b  
+print('a=b:', a==b)  
+print('a+=b:', a+b)  
+print('a-=b:', a-b)  
+print('a*=b:', a*b)  
+print('a%=b:', a%b)  
+print('a**=b:', a**b)  
+print('a//=b:', a//b)  
 
-# modulo
-print ('Modulo: ', a % b)  
+#BITWISE OPERATOR
 
-# a to the power b
-print ('Power: ', a ** b)   
+a = 5          # initialize the value of a  
+b = 6          # initialize the value of b  
+print('a&b:', a&b)  
+print('a|b:', a|b)  
+print('a^b:', a^b)  
+print('~a:', ~a)  
+print('a<<b:', a<<b)  
+print('a>>b:', a>>b)  
+
+#LOGICAL OPERATORS
+
+a = 5          # initialize the value of a          
+print(Is this statement true?:',a > 3 and a < 5)  
+print('Any one statement is true?:',a > 3 or a < 5)  
+print('Each statement is true then return False and vice-versa:',(not(a > 3 and a < 5)))  
+
+#IDENTITY OPERATORS
+
+a = ["Rose", "Lotus"]  
+b = ["Rose", "Lotus"]  
+c = a  
+print(a is c)  
+print(a is not c)  
+print(a is b)  
+print(a is not b)  
+print(a == b)  
+print(a != b)  
